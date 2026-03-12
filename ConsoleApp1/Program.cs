@@ -25,4 +25,17 @@ public class Math
         return a / b;
     }
 
+    static double CalculateAverage(int[] values)
+    {
+        
+        double sum = 0;
+
+        foreach (var number in values)
+        {
+            sum += number;
+        }
+        return sum / values.Length;
+    }
+    
+
 }
