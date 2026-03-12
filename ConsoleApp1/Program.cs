@@ -15,4 +15,9 @@ public class Math
         return a - b;
     }
 
+    static int mul(int a, int b)
+    {
+        return a * b;
+    }
+
 }
