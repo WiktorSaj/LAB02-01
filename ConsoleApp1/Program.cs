@@ -52,7 +52,15 @@ public class Math
 
     static int CalculateMin(int[] values)
     {
-        return 0;
+        int min = values[0];
+        foreach (var number in values)
+        {
+            if (number < min)
+            {
+                min = number;
+            }
+        }
+        return min;
     }
     
 
