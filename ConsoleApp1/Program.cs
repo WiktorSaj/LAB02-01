@@ -49,6 +49,11 @@ public class Math
         }
         return max;
     }
+
+    static int CalculateMin(int[] values)
+    {
+        return 0;
+    }
     
 
 }
