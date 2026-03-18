@@ -5,9 +5,9 @@ Console.WriteLine("Hello, World!");
 public class Math
 {
 
-    static int add(int a, int b)
+    static int add(int x, int y)
     {
-        return a + b;
+        return x + y;
     }
 
     static int sub(int a, int b)
