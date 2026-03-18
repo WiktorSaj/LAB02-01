@@ -36,6 +36,19 @@ public class Math
         }
         return sum / values.Length;
     }
+
+    static int CalculateMax(int[] values)
+    {
+        int max = 0;
+        foreach (var number in values)
+        {
+            if (number > max)
+            {
+                max = number;
+            }
+        }
+        return max;
+    }
     
 
 }
