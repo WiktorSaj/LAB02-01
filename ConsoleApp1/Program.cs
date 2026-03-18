@@ -39,7 +39,7 @@ public class Math
 
     static int CalculateMax(int[] values)
     {
-        int max = 0;
+        int max = values[0];
         foreach (var number in values)
         {
             if (number > max)
